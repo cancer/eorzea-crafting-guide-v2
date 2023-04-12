@@ -1,0 +1,162 @@
+[
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 1,
+  "level_view": 1,
+  "name": "ブロンズインゴット"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 2,
+  "level_view": 1,
+  "name": "ハチェット"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 3,
+  "level_view": 2,
+  "name": "バスタードソード"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 4,
+  "level_view": 2,
+  "name": "アマチュアファイル"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 5,
+  "level_view": 3,
+  "name": "ブロンズリベット"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 6,
+  "level_view": 3,
+  "name": "ウォーアクス"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 7,
+  "level_view": 3,
+  "name": "アマチュアプライヤー"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 8,
+  "level_view": 4,
+  "name": "アマチュアアウル"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 9,
+  "level_view": 4,
+  "name": "ソー"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 10,
+  "level_view": 5,
+  "name": "アマチュアクローハンマー"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 11,
+  "level_view": 5,
+  "name": "クロスペインハンマー"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 12,
+  "level_view": 5,
+  "name": "ドーミングハンマー"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 13,
+  "level_view": 6,
+  "name": "アマチュアクリナリーナイフ"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 14,
+  "level_view": 6,
+  "name": "アマチュアモーター"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 15,
+  "level_view": 7,
+  "name": "ヴァイキングソード"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 16,
+  "level_view": 7,
+  "name": "チェーサーハンマー"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 17,
+  "level_view": 7,
+  "name": "ラブリュス"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 18,
+  "level_view": 8,
+  "name": "ピック"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 19,
+  "level_view": 8,
+  "name": "ヘッドナイフ"
+  },
+  {
+  "classjob": {
+    "id": 9
+  },
+  "id": 20,
+  "level_view": 9,
+  "name": "クラウドアクス"
+  }
+]
