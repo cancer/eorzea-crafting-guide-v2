@@ -1,0 +1,39 @@
+.Loading {
+  width: 120px;
+  height: 50px;
+}
+
+.Loading_Bar {
+  height: 30px;
+  width: 10px;
+  background-color: #cecabb;
+  display: inline-block;
+  margin-right: 5px;
+  animation: loading 1s infinite;
+}
+
+.Loading_Bar--Item1 {
+  animation-delay: 0.5s;
+}
+
+.Loading_Bar--Item2 {
+  animation-delay: 0.6s;
+}
+
+.Loading_Bar--Item3 {
+  animation-delay: 0.7s;
+}
+
+.Loading_Bar--Item4 {
+  animation-delay: 0.8s;
+}
+
+.Loading_Bar--Item5 {
+  animation-delay: 0.9s;
+}
+
+@keyframes loading {
+  30% {
+    transform: scaleY(2);
+  }
+}

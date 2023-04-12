@@ -1,0 +1,228 @@
+.Container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100px auto 30px;
+  grid-template-areas:
+    "selection tool-bar"
+    "selection craft-list"
+    ".         pager";
+  grid-gap: 10px 20px;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.ToolBar {
+  grid-area: tool-bar;
+  display: flex;
+  width: 800px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: var(--box-color);
+}
+
+.ToolBar_Main {
+  flex: 1 1 auto;
+}
+
+.ToolBar_Sub {
+  flex: 0 0 200px;
+}
+
+.ToolBar_Heading {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #ded9d5;
+}
+
+.ToolBar_Search {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 10px;
+  color: #ffdd61;
+  box-sizing: border-box;
+  border: 1px solid #797e8d;
+  background-color: #5a5e69;
+}
+
+.ToolBar_Pager {
+  display: flex;
+}
+
+.ToolBar_PagerItem {
+  flex: 1 1 auto;
+  list-style: none;
+}
+
+.CraftList {
+  grid-area: craft-list;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+
+.CraftList_Heading {
+  height: 40px;
+  line-height: 40px;
+  margin: 0 0 10px;
+  padding-left: 10px;
+  color: #ded9d5;
+}
+
+.CraftList_Table {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-left: 1px solid #5a6075;
+  border-right: 1px solid #5a6075;
+}
+
+.CraftList_TableRow {
+  background-color: #555861;
+}
+
+.CraftList_TableRow:nth-child(2n-1) {
+  background-color: var(--box-color);
+}
+
+.CraftList_TableRow:first-child .CraftList_TableCell {
+  border-top: none;
+}
+
+.CraftList_TableRow:hover {
+  background-color: rgba(255, 234, 24, 0.25);
+}
+
+.CraftList_TableRow:hover a {
+  text-decoration: underline;
+}
+
+.CraftList_TableCell {
+  height: 64px;
+  line-height: 64px;
+  padding-left: 10px;
+  border-top: 1px solid #7d8ba2;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+
+.CraftList_TableCell a {
+  display: block;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Selection {
+  grid-area: selection;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  box-sizing: border-box;
+  background-color: var(--box-color);
+}
+
+.ClassSelection {
+  height: 150px;
+}
+.ClassSelection_Heading {
+  margin: 0;
+  color: var(--heading-color);
+}
+.ClassSelection_List {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 180px;
+  height: 100px;
+  margin: 10px auto;
+  padding: 12px 5px 5px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.ClassSelection_ListItem {
+  list-style: none;
+  text-align: center;
+}
+.ClassSelection_ListItem a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ClassSelection_ListItem a:hover img {
+  border: 1px solid #bbb298;
+}
+.ClassSelection_ListItem--active a img {
+  border: 1px solid #ffe69f;
+}
+.ClassSelection_ListItem img {
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.LevelSelection {
+  padding: 5px;
+}
+.LevelSelection_Heading {
+  margin: 0;
+  color: var(--heading-color);
+}
+.LevelSelection_List {
+  width: 170px;
+  padding: 16px 8px 16px 0;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.LevelSelection_ListItem {
+  list-style: none;
+  width: 170px;
+  height: 36px;
+  line-height: 36px;
+  padding-left: 8px;
+  box-sizing: border-box;
+}
+.LevelSelection_ListItem:hover {
+  background-color: #787d8c;
+}
+.LevelSelection_ListItem a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #80dcff;
+  text-decoration: none;
+}
+.LevelSelection_ListItem a:hover {
+  color: #07b2f3;
+  text-decoration: underline;
+}
+.LevelSelection_ListItem--active {
+  background-color: #908d6b;
+}
+.LevelSelection_ListItem--active a {
+  color: #fff;
+}
+.LevelSelection_ListItem--active a:hover {
+  color: #fff;
+}
+
+.Pager {
+  grid-area: pager;
+}
+
+.Loading {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+}
